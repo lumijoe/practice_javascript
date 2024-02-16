@@ -8,7 +8,7 @@ $(function() {
         // 画面の高さを取得
         const windowHeight = $(window).height();
         // 各.boxに対して処理を行う
-        $(".box").each(function() {
+        $(".box, .text, .text80").each(function() {
             // それぞれの.boxの上端の座標を取得
             const boxTop = $(this).offset().top;
             // 条件を満たす場合はis-activeクラスを付与し、そうでない場合は削除する
